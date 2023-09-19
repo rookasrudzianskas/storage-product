@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'JS Mastery',
-  description: 'JS Mastery Resources',
+  title: 'Storage App',
+  description: 'Storage App Resources',
   other: {
     'theme-color': '#0d1117',
     "color-scheme": "dark only",
