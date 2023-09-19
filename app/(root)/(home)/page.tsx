@@ -1,4 +1,4 @@
-// import Filters from '@/components/Filters'
+import Filters from '@/components/Filters'
 // import Header from '@/components/Header';
 // import ResourceCard from '@/components/ResourceCard'
 import SearchForm from '@/components/SearchForm'
@@ -30,7 +30,7 @@ const Page = async ({ searchParams }: Props) => {
         <SearchForm />
       </section>
 
-      {/*<Filters />*/}
+      <Filters />
 
       {/*{(searchParams?.query || searchParams?.category) && (*/}
       {/*  <section className="flex-center mt-6 w-full flex-col sm:mt-20">*/}
