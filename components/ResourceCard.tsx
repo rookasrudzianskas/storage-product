@@ -17,7 +17,7 @@ const ResourceCard = ({ id, title, image, downloadNumber, downloadLink }: Props)
       <Link href={downloadLink} target="_blank">
         <CardHeader className="flex-center flex-col gap-2.5 !p-0">
           <div className="h-fit w-full">
-            <Image 
+            <Image
               src={image}
               className="h-full rounded-md object-cover"
               width={384}
@@ -30,7 +30,7 @@ const ResourceCard = ({ id, title, image, downloadNumber, downloadLink }: Props)
       </Link>
       <CardContent className="flex-between mt-4 p-0">
         <div className="flex-center body-medium gap-1.5 text-white">
-          <Image 
+          <Image
             src="/downloads.svg" width={20} height={20} alt="download"
           />
           {downloadNumber}
